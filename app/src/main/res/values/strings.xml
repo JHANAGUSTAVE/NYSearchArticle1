@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">NyTimeSearch</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint" tools:ignore="DuplicateDefinition">Enter search query</string>
+    <string name="search" tools:ignore="DuplicateDefinition">Search</string>
+</resources>

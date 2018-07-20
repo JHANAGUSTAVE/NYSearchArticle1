@@ -29,7 +29,7 @@ public class Article {
     @SuppressWarnings("deprecation")
     public Article(JSONObject jsonObject){
         try {
-                this.webUrl = jsonObject.getString("web-url");
+                this.webUrl = jsonObject.getString("web_url");
                 this.headline = jsonObject.getJSONObject("headline").getString("main");
 
             JSONArray multimedia = jsonObject.getJSONArray("multimedia");
@@ -41,6 +41,7 @@ public class Article {
                 this.thumbNail = "";
             }
         }catch (JSONException e) {
+            e.printStackTrace();
          }
         }
 
